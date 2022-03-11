@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+}
+
+.backgroundImage {
+  border: 1px dashed gray;
+  border-radius: 6px;
+  z-index: -1000;
+
+  * {
+    display: block !important;
+  }
+}
+
+.thumbContainer {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
